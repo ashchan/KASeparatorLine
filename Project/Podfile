@@ -1,0 +1,7 @@
+pod "KASeparatorLine", :path => "../KASeparatorLine.podspec"
+
+target "Demo" do
+end
+
+target "DemoTests" do
+end
