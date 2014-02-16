@@ -1,0 +1,14 @@
+PODS:
+  - KASeparatorLine (1.0)
+
+DEPENDENCIES:
+  - KASeparatorLine (from `../KASeparatorLine.podspec`)
+
+EXTERNAL SOURCES:
+  KASeparatorLine:
+    :path: ../KASeparatorLine.podspec
+
+SPEC CHECKSUMS:
+  KASeparatorLine: 2c1a289d8d298e5a87bf53823646819f5197e96a
+
+COCOAPODS: 0.29.0

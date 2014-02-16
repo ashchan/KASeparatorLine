@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AD7CDEB18B0A7B5008A4DF1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AD7CDEA18B0A7B5008A4DF1 /* Cocoa.framework */; };
+		1AD7CDF518B0A7B5008A4DF1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1AD7CDF318B0A7B5008A4DF1 /* InfoPlist.strings */; };
+		1AD7CDF718B0A7B5008A4DF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7CDF618B0A7B5008A4DF1 /* main.m */; };
+		1AD7CDFB18B0A7B5008A4DF1 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 1AD7CDF918B0A7B5008A4DF1 /* Credits.rtf */; };
+		1AD7CDFE18B0A7B5008A4DF1 /* KAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7CDFD18B0A7B5008A4DF1 /* KAAppDelegate.m */; };
+		1AD7CE0118B0A7B5008A4DF1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AD7CDFF18B0A7B5008A4DF1 /* MainMenu.xib */; };
+		1AD7CE0318B0A7B5008A4DF1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AD7CE0218B0A7B5008A4DF1 /* Images.xcassets */; };
+		863D22F8520B49B184A1F32C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D5B8005834445138C57D990 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1AD7CDE718B0A7B5008A4DF1 /* KASeparatorLineExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KASeparatorLineExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AD7CDEA18B0A7B5008A4DF1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		1AD7CDED18B0A7B5008A4DF1 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		1AD7CDEE18B0A7B5008A4DF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1AD7CDEF18B0A7B5008A4DF1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1AD7CDF218B0A7B5008A4DF1 /* KASeparatorLineExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KASeparatorLineExample-Info.plist"; sourceTree = "<group>"; };
+		1AD7CDF418B0A7B5008A4DF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1AD7CDF618B0A7B5008A4DF1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1AD7CDF818B0A7B5008A4DF1 /* KASeparatorLineExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KASeparatorLineExample-Prefix.pch"; sourceTree = "<group>"; };
+		1AD7CDFA18B0A7B5008A4DF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		1AD7CDFC18B0A7B5008A4DF1 /* KAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KAAppDelegate.h; sourceTree = "<group>"; };
+		1AD7CDFD18B0A7B5008A4DF1 /* KAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KAAppDelegate.m; sourceTree = "<group>"; };
+		1AD7CE0018B0A7B5008A4DF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		1AD7CE0218B0A7B5008A4DF1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2D5B8005834445138C57D990 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		708A514DE2E247D5B9952153 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AD7CDE418B0A7B5008A4DF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AD7CDEB18B0A7B5008A4DF1 /* Cocoa.framework in Frameworks */,
+				863D22F8520B49B184A1F32C /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AD7CDDE18B0A7B5008A4DF1 = {
+			isa = PBXGroup;
+			children = (
+				1AD7CDF018B0A7B5008A4DF1 /* KASeparatorLineExample */,
+				1AD7CDE918B0A7B5008A4DF1 /* Frameworks */,
+				1AD7CDE818B0A7B5008A4DF1 /* Products */,
+				708A514DE2E247D5B9952153 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		1AD7CDE818B0A7B5008A4DF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AD7CDE718B0A7B5008A4DF1 /* KASeparatorLineExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AD7CDE918B0A7B5008A4DF1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1AD7CDEA18B0A7B5008A4DF1 /* Cocoa.framework */,
+				1AD7CDEC18B0A7B5008A4DF1 /* Other Frameworks */,
+				2D5B8005834445138C57D990 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1AD7CDEC18B0A7B5008A4DF1 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1AD7CDED18B0A7B5008A4DF1 /* AppKit.framework */,
+				1AD7CDEE18B0A7B5008A4DF1 /* CoreData.framework */,
+				1AD7CDEF18B0A7B5008A4DF1 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		1AD7CDF018B0A7B5008A4DF1 /* KASeparatorLineExample */ = {
+			isa = PBXGroup;
+			children = (
+				1AD7CDFC18B0A7B5008A4DF1 /* KAAppDelegate.h */,
+				1AD7CDFD18B0A7B5008A4DF1 /* KAAppDelegate.m */,
+				1AD7CDFF18B0A7B5008A4DF1 /* MainMenu.xib */,
+				1AD7CE0218B0A7B5008A4DF1 /* Images.xcassets */,
+				1AD7CDF118B0A7B5008A4DF1 /* Supporting Files */,
+			);
+			path = KASeparatorLineExample;
+			sourceTree = "<group>";
+		};
+		1AD7CDF118B0A7B5008A4DF1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AD7CDF218B0A7B5008A4DF1 /* KASeparatorLineExample-Info.plist */,
+				1AD7CDF318B0A7B5008A4DF1 /* InfoPlist.strings */,
+				1AD7CDF618B0A7B5008A4DF1 /* main.m */,
+				1AD7CDF818B0A7B5008A4DF1 /* KASeparatorLineExample-Prefix.pch */,
+				1AD7CDF918B0A7B5008A4DF1 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AD7CDE618B0A7B5008A4DF1 /* KASeparatorLineExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AD7CE1818B0A7B6008A4DF1 /* Build configuration list for PBXNativeTarget "KASeparatorLineExample" */;
+			buildPhases = (
+				65146B18FBE24E0C9A6BDEFF /* Check Pods Manifest.lock */,
+				1AD7CDE318B0A7B5008A4DF1 /* Sources */,
+				1AD7CDE418B0A7B5008A4DF1 /* Frameworks */,
+				1AD7CDE518B0A7B5008A4DF1 /* Resources */,
+				3C421C8B60A0425AAF69471A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KASeparatorLineExample;
+			productName = KASeparatorLineExample;
+			productReference = 1AD7CDE718B0A7B5008A4DF1 /* KASeparatorLineExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AD7CDDF18B0A7B5008A4DF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KA;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = ashchan.com;
+			};
+			buildConfigurationList = 1AD7CDE218B0A7B5008A4DF1 /* Build configuration list for PBXProject "KASeparatorLineExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1AD7CDDE18B0A7B5008A4DF1;
+			productRefGroup = 1AD7CDE818B0A7B5008A4DF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AD7CDE618B0A7B5008A4DF1 /* KASeparatorLineExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AD7CDE518B0A7B5008A4DF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AD7CDF518B0A7B5008A4DF1 /* InfoPlist.strings in Resources */,
+				1AD7CE0318B0A7B5008A4DF1 /* Images.xcassets in Resources */,
+				1AD7CDFB18B0A7B5008A4DF1 /* Credits.rtf in Resources */,
+				1AD7CE0118B0A7B5008A4DF1 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C421C8B60A0425AAF69471A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65146B18FBE24E0C9A6BDEFF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AD7CDE318B0A7B5008A4DF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AD7CDFE18B0A7B5008A4DF1 /* KAAppDelegate.m in Sources */,
+				1AD7CDF718B0A7B5008A4DF1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1AD7CDF318B0A7B5008A4DF1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AD7CDF418B0A7B5008A4DF1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1AD7CDF918B0A7B5008A4DF1 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AD7CDFA18B0A7B5008A4DF1 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		1AD7CDFF18B0A7B5008A4DF1 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AD7CE0018B0A7B5008A4DF1 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1AD7CE1618B0A7B6008A4DF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1AD7CE1718B0A7B6008A4DF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1AD7CE1918B0A7B6008A4DF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 708A514DE2E247D5B9952153 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KASeparatorLineExample/KASeparatorLineExample-Prefix.pch";
+				INFOPLIST_FILE = "KASeparatorLineExample/KASeparatorLineExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1AD7CE1A18B0A7B6008A4DF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 708A514DE2E247D5B9952153 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KASeparatorLineExample/KASeparatorLineExample-Prefix.pch";
+				INFOPLIST_FILE = "KASeparatorLineExample/KASeparatorLineExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AD7CDE218B0A7B5008A4DF1 /* Build configuration list for PBXProject "KASeparatorLineExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AD7CE1618B0A7B6008A4DF1 /* Debug */,
+				1AD7CE1718B0A7B6008A4DF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AD7CE1818B0A7B6008A4DF1 /* Build configuration list for PBXNativeTarget "KASeparatorLineExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AD7CE1918B0A7B6008A4DF1 /* Debug */,
+				1AD7CE1A18B0A7B6008A4DF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AD7CDDF18B0A7B5008A4DF1 /* Project object */;
+}
