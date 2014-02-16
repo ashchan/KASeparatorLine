@@ -1,24 +1,24 @@
 # KASeparatorLine
 
-[![Version](http://cocoapod-badges.herokuapp.com/v/KASeparatorLine/badge.png)](http://cocoadocs.org/docsets/KASeparatorLine)
-[![Platform](http://cocoapod-badges.herokuapp.com/p/KASeparatorLine/badge.png)](http://cocoadocs.org/docsets/KASeparatorLine)
+NSView subclass for drawing a separator line.
 
-## Usage
+KASeparatorLine does one thing and one thing only: draw a horizontal separator line.
 
-To run the example project; clone the repo, and run `pod install` from the Project directory first.
+The separator line is combined with a dark line and a light one, with gradient effect.
 
-## Requirements
+![Screenshot](https://raw.github.com/ashchan/KASeparatorLine/master/screenshot.png)
 
 ## Installation
 
-KASeparatorLine is available through [CocoaPods](http://cocoapods.org), to install
-it simply add the following line to your Podfile:
+KASeparatorLine is available through [CocoaPods](http://cocoapods.org), to install it simply add the following line to your Podfile:
 
     pod "KASeparatorLine"
 
-## Author
+## Usage
 
-James Chen, ashchan@gmail.com
+* Drag a Custom View to your interface
+* Set the view's class to `KASeparatorLine`
+* Set the view's height to `2`
 
 ## License
 

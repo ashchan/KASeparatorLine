@@ -10,11 +10,12 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/ashchan/KASeparatorLine"
   s.license          = 'MIT'
   s.author           = { "James Chen" => "ashchan@gmail.com" }
-  s.source           = { :git => "http://github.com/ashchan/KASeparatorLine.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/ashchan/KASeparatorLine.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/ashchan'
 
   s.platform     = :osx, '10.7'
   s.requires_arc = true
 
   s.source_files = 'Classes/osx/*'
+  s.screenshots  = "https://raw.github.com/ashchan/KASeparatorLine/master/screenshot.png"
 end
