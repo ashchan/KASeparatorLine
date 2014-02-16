@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../KASeparatorLine.podspec
 
 SPEC CHECKSUMS:
-  KASeparatorLine: 2c1a289d8d298e5a87bf53823646819f5197e96a
+  KASeparatorLine: 1f2d677504177084204b180f5bd15c271decd579
 
 COCOAPODS: 0.29.0
